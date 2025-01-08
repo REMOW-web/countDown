@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CountDown App</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+    <video autoplay muted loop id="background-video">
+        <source src="background vid.mp4" type="video/mp4"> 
+        Your browser does not support the video tag.
+    </video>
+    <h1>Countdown to Remow's Birthday</h1>
+    <div class="countdown">
+        <div class="box">
+            <span class="num" id="day-box">00</span>
+              <span class="text">Days</span>
+        </div>
+           <div class="box">
+            <span class="num" id="hr-box">00</span>
+            <span class="text">Hours</span>
+
+       </div>
+       <div class="box">
+        <span class="num" id="min-box">00</span>
+        <span class="text">Minutes</span>
+
+       </div>
+       <div class="box">
+        <span class="num" id="sec-box">00</span>
+        <span class="text">Seconds</span>
+    </div>
+
+    <!-- script -->
+    <script src="countdown.js"></script>
+</body>
+</html>
